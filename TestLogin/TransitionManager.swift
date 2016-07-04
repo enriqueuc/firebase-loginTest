@@ -84,7 +84,7 @@ class TransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UIView
     
     // return the animator used when dismissing from a viewcontroller
     func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        self.presenting = false
+        self.presenting = false 
         return self
     }
     
